@@ -863,3 +863,31 @@ p {
     padding: 18px 18px 18px 46px;
   }
 }
+#boot-screen,
+#boot-screen *{
+  color:#f4f7fb !important;
+}
+
+.boot-shell{
+  background:rgba(8,16,28,.82) !important;
+  border:1px solid rgba(255,255,255,.14) !important;
+}
+
+.boot-kicker,
+.boot-line,
+.boot-status{
+  color:#cfd7e2 !important;
+}
+
+.boot-name{
+  color:#ffffff !important;
+}
+
+.boot-progress{
+  background:rgba(255,255,255,.14) !important;
+}
+
+.boot-progress-bar{
+  background:linear-gradient(90deg,#ffffff,#9ca9bc) !important;
+}
+}
