@@ -3,7 +3,7 @@ File: script.js
 ========================= -->
 document.addEventListener("DOMContentLoaded", () => {
   const SITE_CONFIG = {
-    email: "nicholas@engenix.co",
+    email: "your@email.com",
     resumePath: "assets/Nicholas-Engen-Resume.pdf"
   };
 
@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const applyContactConfig = () => {
     if (emailLink && emailValue) {
-      const isPlaceholder = SITE_CONFIG.email === "nicholas@engenix.co";
-      emailValue.textContent = isPlaceholder ? "nicholas@engenix.co" : SITE_CONFIG.email;
+      const isPlaceholder = SITE_CONFIG.email === "your@email.com";
+      emailValue.textContent = isPlaceholder ? "Replace in script.js" : SITE_CONFIG.email;
       emailLink.href = isPlaceholder ? "#" : `mailto:${SITE_CONFIG.email}`;
       emailLink.setAttribute("aria-disabled", String(isPlaceholder));
     }
