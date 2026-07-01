@@ -1254,7 +1254,7 @@ transition:opacity .8s ease,visibility .8s ease;
 
 }
 
-#boot-screen.hidden{
+.hidden{
 
 opacity:0;
 
