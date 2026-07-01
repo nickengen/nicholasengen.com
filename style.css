@@ -282,6 +282,8 @@ gap:32px;
 
 list-style:none;
 
+margin-left:auto;
+
 }
 
 nav a{
@@ -316,7 +318,7 @@ border-radius:999px;
 
 display:none;
 
-font-size:30px;
+font-size:28px;
 
 background:none;
 
@@ -326,11 +328,30 @@ cursor:pointer;
 
 color:#163A63;
 
+padding:6px;
+
 }
 
 /* Mobile */
 
-@media(max-width:900px){
+@media(max-width:768px){
+
+.logo{
+
+font-size:1.4rem;
+
+}
+
+nav{
+
+width:92%;
+
+top:12px;
+
+padding:16px 20px;
+
+}
+
 
 .menu-toggle{
 
