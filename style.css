@@ -576,12 +576,7 @@ line-height:.tech-category{
 
 @media (max-width:768px){
 
-   section{
-
-    padding-left:24px;
-
-    padding-right:24px;
-   }
+   
 .dashboard{
     grid-template-columns:1fr 1fr;
     gap:18px;
