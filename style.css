@@ -491,4 +491,69 @@ justify-content:center;
 
 }
 
+   /* =========================
+   Awards
+========================= */
+
+.awards-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+margin-top:45px;
+
+}
+
+.award-card{
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+transition:.35s;
+
+}
+
+.award-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 25px 55px rgba(0,0,0,.15);
+
+}
+
+.award-icon{
+
+font-size:54px;
+
+margin-bottom:20px;
+
+}
+
+.award-card h3{
+
+color:#163A63;
+
+margin-bottom:12px;
+
+font-size:24px;
+
+}
+
+.award-card p{
+
+color:#666;
+
+line-height:1.7;
+
+}
 }
