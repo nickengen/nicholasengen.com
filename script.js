@@ -3,7 +3,7 @@ File: script.js
 ========================= -->
 document.addEventListener("DOMContentLoaded", () => {
   const SITE_CONFIG = {
-    email: "your@email.com",
+    email: "nicholas@engenix.com",
     resumePath: "assets/Nicholas-Engen-Resume.pdf"
   };
 
