@@ -347,43 +347,67 @@ section p{
 
 .job{
 
-    background:white;
+background:white;
 
-    padding:45px;
+padding:45px;
 
-    border-radius:var(--radius);
+border-radius:20px;
 
-    box-shadow:var(--shadow);
+margin-bottom:35px;
 
-    margin-top:40px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+transition:.35s;
+
+}
+
+.job:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 22px 60px rgba(0,0,0,.15);
 
 }
 
 .job h3{
 
-    font-size:2rem;
+font-size:32px;
+
+margin-bottom:8px;
+
+color:#163A63;
 
 }
 
 .job h4{
 
-    color:#666;
+font-size:18px;
 
-    margin-bottom:25px;
+font-weight:500;
 
-    font-weight:500;
+color:#777;
+
+margin-bottom:20px;
+
+}
+
+.job p{
+
+margin-bottom:22px;
+
+color:#555;
 
 }
 
 .job ul{
 
-    margin-left:24px;
+margin-left:22px;
 
 }
 
 .job li{
 
-    margin-bottom:12px;
+margin-bottom:10px;
 
 }
 
