@@ -266,19 +266,10 @@ nav a:hover{
     line-height:1.8;
 }
 .dashboard{
-
-    max-width:var(--max);
-
-    margin:auto;
-
     display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-
+    grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
     gap:24px;
-
-    padding:40px 24px 80px;
-
+    padding:60px 8%;
 }
 
 .card{
@@ -581,5 +572,34 @@ line-height:.tech-category{
 .chips span:hover{
     transform:translateY(-3px);
     box-shadow:0 15px 30px rgba(0,0,0,.12);
+}  
+
+@media (max-width:768px){
+
+   section{
+
+    padding-left:24px;
+
+    padding-right:24px;
+   }
+.dashboard{
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+}
+
+.card{
+    min-width:0;
+    padding:30px 18px;
+}
+
+.card h3{
+    font-size:2.4rem;
+}
+
+.card p{
+    font-size:1rem;
+    line-height:1.4;
+}
+
 }   
 }
