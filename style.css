@@ -553,7 +553,33 @@ font-size:24px;
 
 color:#666;
 
-line-height:1.7;
-
+line-height:.tech-category{
+    margin-bottom:40px;
 }
+
+.tech-category h3{
+    color:#163A63;
+    margin-bottom:15px;
+}
+
+.chips{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.chips span{
+    background:white;
+    color:#163A63;
+    padding:12px 18px;
+    border-radius:999px;
+    font-weight:600;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.chips span:hover{
+    transform:translateY(-3px);
+    box-shadow:0 15px 30px rgba(0,0,0,.12);
+}   
 }
