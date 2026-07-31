@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const siteConfig = {
-    email: "your@email.com",
+    email: "nicholas@engenix.co",
     resumePath: "assets/Nicholas-Engen-Resume.pdf"
   };
 
