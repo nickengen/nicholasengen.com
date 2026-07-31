@@ -3,486 +3,162 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nicholas Engen | Automotive Retail Executive</title>
-  <meta
-    name="description"
-    content="Nicholas Engen — Automotive Retail Executive. Executive Operating System. Leadership is measurable."
-  />
-  <meta name="theme-color" content="#f4f6f8" />
+  <meta name="description" content="Nicholas Engen is an automotive retail executive focused on disciplined growth, high-performing teams, and durable operating results." />
+  <meta name="theme-color" content="#0a0b0d" />
+  <title>Nicholas Engen — Automotive Retail Executive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="boot-screen" aria-hidden="true">
-    <div class="boot-shell">
-      <div class="boot-kicker">Executive Operating System</div>
-      <div class="boot-name">NICHOLAS ENGEN</div>
-      <div class="boot-line">Leadership is measurable.</div>
-      <div class="boot-progress" aria-hidden="true">
-        <span class="boot-progress-bar"></span>
-      </div>
-      <div class="boot-status" id="bootStatus">Initializing executive profile...</div>
-    </div>
-  </div>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <div class="site-shell">
-    <header class="topbar">
-      <nav class="nav glass" aria-label="Primary">
-        <a href="#hero" class="brand" aria-label="Nicholas Engen home">
-          <span class="brand-mark">NE</span>
-          <span class="brand-copy">
-            <strong>Nicholas Engen</strong>
-            <small>Automotive Retail Executive</small>
-          </span>
-        </a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Nicholas Engen home">
+      <span>NE</span>
+      <small>Nicholas Engen</small>
+    </a>
 
-        <button
-          class="menu-toggle"
-          id="menuToggle"
-          type="button"
-          aria-expanded="false"
-          aria-controls="navMenu"
-          aria-label="Open navigation"
-        >
-          <span></span>
-          <span></span>
-        </button>
+    <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="siteNav">
+      <span class="sr-only">Toggle navigation</span>
+      <i></i><i></i>
+    </button>
 
-        <div class="nav-menu" id="navMenu">
-          <a href="#dashboard">Dashboard</a>
-          <a href="#philosophy">Philosophy</a>
-          <a href="#journey">Journey</a>
-          <a href="#impact">Impact</a>
-          <a href="#contact" class="nav-cta">Contact</a>
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <a href="#story">Profile</a>
+      <a href="#operating-system">Approach</a>
+      <a href="#track-record">Track record</a>
+      <a class="nav-contact" href="#contact">Let’s talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Automotive retail / executive operator</p>
+        <h1>Make the <em>numbers</em> mean something.</h1>
+        <p class="hero-intro">Nicholas Engen brings eighteen-plus years of dealership leadership to the work that matters most: creating accountable teams, resilient process, and commercial momentum that lasts.</p>
+        <div class="hero-actions">
+          <a class="button button-solid" href="mailto:nicholas@engenix.co?subject=Executive%20Conversation">Start a conversation <span>↗</span></a>
+          <a class="text-link" href="#story">View the profile <span>↓</span></a>
         </div>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero section" id="hero">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">Automotive Retail Executive</p>
-          <h1>Executive leadership for modern automotive retail.</h1>
-          <p class="hero-text">
-            Nicholas Engen is an automotive retail executive with more than eighteen years of leadership
-            experience across finance, sales, variable operations, and executive dealership management.
-            His operating system is grounded in accountability, team development, process discipline,
-            and measurable performance.
-          </p>
-
-          <div class="hero-actions">
-            <a href="#journey" class="button button-primary">View Leadership Journey</a>
-            <a href="#contact" class="button button-secondary">Contact Command Center</a>
-            <button
-              class="button button-secondary"
-              id="openResumeModal"
-              type="button"
-              aria-haspopup="dialog"
-              aria-controls="resumeModal"
-            >
-              Open Resume
-            </button>
-          </div>
-
-          <div class="hero-signal-grid">
-            <article class="signal-card glass reveal">
-              <span class="signal-label">Role</span>
-              <strong>Executive Operating Leader</strong>
-            </article>
-            <article class="signal-card glass reveal">
-              <span class="signal-label">Focus</span>
-              <strong>Leadership, Process, Profitability</strong>
-            </article>
-            <article class="signal-card glass reveal">
-              <span class="signal-label">Core Line</span>
-              <strong>Leadership is measurable.</strong>
-            </article>
-          </div>
-        </div>
-
-        <aside class="hero-panel glass reveal" aria-label="Executive summary">
-          <div class="panel-header">
-            <span class="panel-dot"></span>
-            <span>EXECUTIVE SUMMARY</span>
-          </div>
-
-          <img
-            src="https://www.engenix.co/nicholas-engen.jpg"
-            alt="Nicholas Engen"
-            width="180"
-            height="180"
-            loading="eager"
-            decoding="async"
-            style="display: block; width: 180px; height: 180px; margin: 0 auto 1.5rem; border: 2px solid rgba(255, 255, 255, 0.6); border-radius: 50%; object-fit: cover;"
-          />
-
-          <div class="hero-panel-block">
-            <p class="panel-label">Profile</p>
-            <h2>Nicholas Engen</h2>
-            <p class="panel-muted">Automotive Retail Executive</p>
-          </div>
-
-          <div class="hero-panel-grid">
-            <div>
-              <span>Experience</span>
-              <strong>18+ Years</strong>
-            </div>
-            <div>
-              <span>Leadership Standard</span>
-              <strong>Measured Outcomes</strong>
-            </div>
-            <div>
-              <span>Operating Strength</span>
-              <strong>Team + Process Alignment</strong>
-            </div>
-            <div>
-              <span>Executive Style</span>
-              <strong>Calm / Precise / Accountable</strong>
-            </div>
-          </div>
-        </aside>
-      </section>
-
-      <section class="section" id="dashboard">
-        <div class="section-heading reveal">
-          <p class="section-tag">Executive Performance Dashboard</p>
-          <h2>Performance measured through leadership range, operational consistency, and execution quality.</h2>
-        </div>
-
-        <div class="dashboard-grid">
-          <article class="metric-card glass reveal">
-            <span class="metric-label">Leadership Tenure</span>
-            <h3 class="counter" data-target="18">0</h3>
-            <p>Years across finance, sales, variable operations, and executive dealership management.</p>
-          </article>
-
-          <article class="metric-card glass reveal">
-            <span class="metric-label">Teams Developed</span>
-            <h3 class="counter" data-target="30">0</h3>
-            <p>Professionals coached, developed, and aligned to high-performance standards.</p>
-          </article>
-
-          <article class="metric-card glass reveal">
-            <span class="metric-label">Annual Delivery Benchmark</span>
-            <h3 class="counter" data-target="944">0</h3>
-            <p>Representative annual production benchmark in high-output retail operations.</p>
-          </article>
-
-          <article class="metric-card glass reveal">
-            <span class="metric-label">Recognition Signals</span>
-            <h3>Multi-Award</h3>
-            <p>Recognition associated with sustained performance, leadership quality, and operating discipline.</p>
-          </article>
-        </div>
-
-        <div class="dashboard-panel glass reveal">
-          <div class="dashboard-panel-head">
-            <span class="panel-dot"></span>
-            <span>OPERATING READOUT</span>
-          </div>
-
-          <div class="readout-grid">
-            <article>
-              <span>Leadership Quality</span>
-              <strong>High accountability culture</strong>
-            </article>
-            <article>
-              <span>Operational Style</span>
-              <strong>Structured and measurable</strong>
-            </article>
-            <article>
-              <span>Commercial Orientation</span>
-              <strong>Margin + velocity balance</strong>
-            </article>
-            <article>
-              <span>Execution Bias</span>
-              <strong>Process before noise</strong>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="philosophy">
-        <div class="section-heading reveal">
-          <p class="section-tag">Leadership Philosophy</p>
-          <h2>Leadership is measurable when standards, coaching, and execution move together.</h2>
-        </div>
-
-        <div class="philosophy-grid">
-          <article class="philosophy-card glass reveal">
-            <h3>Clarity Over Complexity</h3>
-            <p>Teams perform best when priorities are visible, expectations are clear, and standards are reinforced daily.</p>
-          </article>
-
-          <article class="philosophy-card glass reveal">
-            <h3>Accountability With Coaching</h3>
-            <p>Strong leadership combines high standards with repetition, development, and practical support.</p>
-          </article>
-
-          <article class="philosophy-card glass reveal">
-            <h3>Results Through Discipline</h3>
-            <p>Sustainable performance comes from repeatable process, strong follow-through, and operational consistency.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="journey">
-        <div class="section-heading reveal">
-          <p class="section-tag">Leadership Journey</p>
-          <h2>A progression shaped through finance, sales, variable operations, and executive management.</h2>
-        </div>
-
-        <div class="timeline">
-          <article class="timeline-item glass reveal">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="timeline-role">Finance Leadership</span>
-              <h3>Finance Manager / Finance Director</h3>
-              <p>Built expertise in lender relationships, compliance, deal structure, and finance performance management.</p>
-            </div>
-          </article>
-
-          <article class="timeline-item glass reveal">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="timeline-role">Sales Leadership</span>
-              <h3>Sales Manager / General Sales Manager</h3>
-              <p>Led variable operations, team execution, inventory strategy, and coaching systems designed for consistent results.</p>
-            </div>
-          </article>
-
-          <article class="timeline-item glass reveal">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <span class="timeline-role">Executive Management</span>
-              <h3>General Manager / New Car Director</h3>
-              <p>Directed broader dealership operations with emphasis on profitability, recruiting, accountability, and executive stability.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="impact">
-        <div class="section-heading reveal">
-          <p class="section-tag">Executive Impact</p>
-          <h2>Measured impact comes from systems that improve both performance and people.</h2>
-        </div>
-
-        <div class="impact-grid">
-          <article class="impact-card glass reveal">
-            <h3>Operational Performance</h3>
-            <p>Built leadership systems that support consistency in sales execution, finance discipline, inventory alignment, and profitability.</p>
-          </article>
-
-          <article class="impact-card glass reveal">
-            <h3>Team Development</h3>
-            <p>Created environments where expectations, coaching, and accountability accelerate professional growth.</p>
-          </article>
-
-          <article class="impact-card glass reveal">
-            <h3>Executive Stability</h3>
-            <p>Strengthened decision quality through structured cadence, clear reporting signals, and steady leadership presence.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="awards">
-        <div class="section-heading reveal">
-          <p class="section-tag">Awards & Recognition</p>
-          <h2>Recognition earned through repeatable performance and sustained execution standards.</h2>
-        </div>
-
-        <div class="awards-grid">
-          <article class="award-card glass reveal">
-            <span class="award-kicker">Recognition</span>
-            <h3>GM Mark of Excellence</h3>
-            <p>Recognition associated with leadership quality and measurable operating results.</p>
-          </article>
-
-          <article class="award-card glass reveal">
-            <span class="award-kicker">Recognition</span>
-            <h3>Mazda President’s Club</h3>
-            <p>Recognition reflecting consistent execution and strong organizational performance.</p>
-          </article>
-
-          <article class="award-card glass reveal">
-            <span class="award-kicker">Recognition</span>
-            <h3>Million Dollar Club</h3>
-            <p>Recognition tied to disciplined commercial performance and leadership contribution.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="technology">
-        <div class="section-heading reveal">
-          <p class="section-tag">Technology Ecosystem</p>
-          <h2>Modern retail leadership depends on systems that support visibility, control, and execution.</h2>
-        </div>
-
-        <div class="chip-grid reveal">
-          <span>CDK</span>
-          <span>Reynolds &amp; Reynolds</span>
-          <span>Dealertrack</span>
-          <span>RouteOne</span>
-          <span>VinSolutions</span>
-          <span>vAuto</span>
-          <span>CUDL</span>
-          <span>DocuPAD</span>
-          <span>Manheim</span>
-          <span>ACV Auctions</span>
-          <span>OEM Compliance</span>
-          <span>FTC Safeguards Rule</span>
-          <span>Identity Verification</span>
-          <span>Captive Finance</span>
-        </div>
-      </section>
-
-      <section class="section" id="contact">
-        <div class="section-heading reveal">
-          <p class="section-tag">Contact Command Center</p>
-          <h2>For executive conversations, leadership opportunities, and strategic operating discussions.</h2>
-        </div>
-
-        <div class="contact-shell glass reveal">
-          <div class="contact-summary">
-            <span class="panel-label">Executive Profile</span>
-            <h3>Nicholas Engen</h3>
-            <p>Automotive Retail Executive</p>
-            <p class="contact-note">
-              Executive leader with more than eighteen years of dealership leadership experience across finance,
-              sales, variable operations, and executive management.
-            </p>
-          </div>
-
-          <div class="contact-grid">
-            <a href="tel:+19517229159" class="contact-card-command">
-              <span>Phone</span>
-              <strong>951-722-9159</strong>
-            </a>
-
-            <a href="#" class="contact-card-command" id="emailLink">
-              <span>Email</span>
-              <strong id="emailValue">Set in script.js</strong>
-            </a>
-
-            <div class="contact-card-command">
-              <span>Location</span>
-              <strong>Albuquerque, New Mexico</strong>
-            </div>
-
-            <button
-              type="button"
-              class="contact-card-command resume-command"
-              id="openResumeModalSecondary"
-              aria-haspopup="dialog"
-              aria-controls="resumeModal"
-            >
-              <span>Resume</span>
-              <strong>Open executive resume</strong>
-            </button>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        <div>
-          <p class="footer-kicker">Nicholas Engen</p>
-          <h3>Executive leadership for modern automotive retail operations.</h3>
-        </div>
-
-        <div class="footer-links">
-          <a href="#dashboard">Dashboard</a>
-          <a href="#philosophy">Philosophy</a>
-          <a href="#journey">Journey</a>
-          <a href="#impact">Impact</a>
-          <a href="#contact">Contact</a>
-        </div>
-
-        <p class="footer-copy">© 2026 Nicholas Engen. All rights reserved.</p>
-      </div>
-    </footer>
-  </div>
-
-  <div
-    class="modal"
-    id="resumeModal"
-    aria-hidden="true"
-    role="dialog"
-    aria-modal="true"
-    aria-labelledby="resumeModalTitle"
-  >
-    <div class="modal-backdrop" data-close-modal="true"></div>
-
-    <div class="modal-panel glass">
-      <button class="modal-close" id="closeResumeModal" type="button" aria-label="Close resume modal">×</button>
-
-      <div class="modal-head">
-        <p class="section-tag">Executive Resume</p>
-        <h2 id="resumeModalTitle">Nicholas Engen</h2>
-        <p class="modal-subtitle">Automotive Retail Executive</p>
       </div>
 
-      <div class="modal-grid">
-        <article class="modal-card">
-          <span>Profile</span>
-          <strong>Leadership is measurable.</strong>
-          <p>Executive leadership across finance, sales, variable operations, and dealership management.</p>
-        </article>
+      <div class="hero-portrait">
+        <div class="portrait-frame">
+          <img src="https://www.engenix.co/nicholas-engen.jpg" alt="Nicholas Engen" fetchpriority="high" />
+        </div>
+        <div class="portrait-caption">
+          <span>01 / Executive profile</span>
+          <strong>Calm. Precise. Accountable.</strong>
+        </div>
+        <div class="portrait-mark" aria-hidden="true">NE</div>
+      </div>
 
-        <article class="modal-card">
-          <span>Highlights</span>
-          <strong>18+ years</strong>
-          <p>Experience leading teams, improving process discipline, and driving profitability in automotive retail.</p>
-        </article>
+      <div class="hero-side-note">
+        <span class="line"></span>
+        <p>Leadership is measurable when standards, coaching, and execution move together.</p>
+      </div>
+    </section>
 
-        <article class="modal-card">
-          <span>Recognition</span>
-          <strong>Multi-award track record</strong>
-          <p>Career defined by sustained performance, operating consistency, and leadership credibility.</p>
-        </article>
+    <section class="ticker" aria-label="Leadership disciplines">
+      <div class="ticker-track">
+        <span>PEOPLE</span><b>✦</b><span>PROCESS</span><b>✦</b><span>PROFITABILITY</span><b>✦</b><span>PACE</span><b>✦</b><span>PEOPLE</span><b>✦</b><span>PROCESS</span><b>✦</b><span>PROFITABILITY</span><b>✦</b><span>PACE</span>
+      </div>
+    </section>
 
-        <article class="modal-card">
-          <span>Delivery</span>
-          <strong>Static PDF flow</strong>
-          <p>Built for GitHub Pages. Drop the PDF into the assets folder and the download works immediately.</p>
+    <section class="story section" id="story">
+      <div class="section-label"><span>01</span> The short version</div>
+      <div class="story-grid">
+        <h2>Built in the arena,<br />not a boardroom.</h2>
+        <div class="story-copy">
+          <p class="lead">An executive leader shaped by the real pace of automotive retail—from the deal desk to variable operations to the general manager’s office.</p>
+          <p>My work is centered on turning ambiguity into operating rhythm: a team knows the standard, a leader owns the number, and customers feel the difference. The result is better decisions, better execution, and an organization that can carry momentum forward.</p>
+          <a class="inline-link" href="mailto:nicholas@engenix.co?subject=Executive%20Resume%20Request">Request the full résumé <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof section" aria-label="Career highlights">
+      <article><strong>18<span>+</span></strong><p>Years of automotive<br />retail leadership</p></article>
+      <article><strong>4</strong><p>Leadership lanes:<br />F&amp;I, sales, variable ops, GM</p></article>
+      <article><strong>1</strong><p>Standard:<br />measured outcomes</p></article>
+    </section>
+
+    <section class="operating section" id="operating-system">
+      <div class="section-label"><span>02</span> Operating system</div>
+      <div class="operating-head">
+        <h2>High standards.<br /><em>Human delivery.</em></h2>
+        <p>Performance is not a slogan. It is the product of clear expectations, visible scoreboards, and leaders who stay close enough to coach the details.</p>
+      </div>
+      <div class="principles">
+        <article>
+          <span>01</span>
+          <h3>Clarity<br />over complexity.</h3>
+          <p>Priorities should be visible. Expectations should be exact. Everyone should know what a good day looks like.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Accountability<br />with coaching.</h3>
+          <p>Strong teams are built with repetition, candor, development, and the conviction that people can get better.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Discipline<br />creates freedom.</h3>
+          <p>When the process is trusted, leaders spend less time chasing noise and more time making the right moves.</p>
         </article>
       </div>
+    </section>
 
-      <div class="modal-actions">
-        <a
-          class="button button-primary"
-          id="resumeDownloadLink"
-          href="assets/Nicholas-Engen-Resume.pdf"
-          download="Nicholas-Engen-Resume.pdf"
-          target="_blank"
-          rel="noopener"
-        >
-          Download Resume PDF
-        </a>
-
-        <a
-          class="button button-secondary"
-          id="resumePreviewLink"
-          href="assets/Nicholas-Engen-Resume.pdf"
-          target="_blank"
-          rel="noopener"
-        >
-          Preview PDF
-        </a>
+    <section class="track-record section" id="track-record">
+      <div class="section-label"><span>03</span> Career trajectory</div>
+      <div class="trajectory">
+        <article>
+          <span class="trajectory-number">01</span>
+          <div><p class="kicker">Finance leadership</p><h3>Finance Manager<br />&amp; Finance Director</h3></div>
+          <p class="trajectory-detail">Deal structure, lender relationships, compliance, and disciplined financial performance.</p>
+        </article>
+        <article>
+          <span class="trajectory-number">02</span>
+          <div><p class="kicker">Sales leadership</p><h3>Sales Manager<br />&amp; General Sales Manager</h3></div>
+          <p class="trajectory-detail">Variable operations, team cadence, inventory strategy, and coaching systems built for consistency.</p>
+        </article>
+        <article>
+          <span class="trajectory-number">03</span>
+          <div><p class="kicker">Executive management</p><h3>General Manager<br />&amp; New Car Director</h3></div>
+          <p class="trajectory-detail">Profitability, recruiting, accountability, and steady leadership across the wider operation.</p>
+        </article>
       </div>
+    </section>
 
-      <p class="modal-note">
-        Place the PDF at <code>assets/Nicholas-Engen-Resume.pdf</code>. No build step required.
-      </p>
-    </div>
-  </div>
+    <section class="recognition section">
+      <div>
+        <p class="eyebrow">Recognition</p>
+        <h2>A track record<br />that travels.</h2>
+      </div>
+      <div class="recognition-list">
+        <span>GM Mark of Excellence</span>
+        <span>Mazda President’s Club</span>
+        <span>Million Dollar Club</span>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow">Open to the right conversation</p>
+      <h2>Let’s build something<br /><em>that holds up.</em></h2>
+      <div class="contact-row">
+        <a class="contact-email" href="mailto:nicholas@engenix.co">nicholas@engenix.co <span>↗</span></a>
+        <a class="contact-phone" href="tel:+19517229159">951 722 9159</a>
+      </div>
+      <p class="contact-location">Albuquerque, New Mexico</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Nicholas Engen</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
 
   <script src="script.js"></script>
 </body>
